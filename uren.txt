@@ -1,0 +1,24 @@
+4/12/2019
+research homepage - 2 uur
+11/12/2019 
+homepage animations - 2 uur
+18/12/2019 
+homepage animations - 2 uur
+9/1/2020 
+homepage preloader - 1,5 uur
+11/1/2020
+contact page -  4 uur
+13/1/2020 -1,5 uur
+Dashboard website zoeken- 
+21/1/2020 - 0,5 uur
+fix preloader
+25/1/2020 - 4 uur
+html/css omzetten naar laravel
+26/1/2020 - 2 uur + pauze + 1 uur
+werken aan Dashboard laravel/routes
+29/1/2020 -  2,5 uur 
+bugfixes
+1/2/2020 - 4 uur 
+laravel dashboard product gekoppeld
+5/2/2020 -
+

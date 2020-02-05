@@ -2,7 +2,6 @@
 
 namespace App\Http\Requests;
 
-use App\Product;
 use Illuminate\Foundation\Http\FormRequest;
 
 class StoreProductRequest extends FormRequest
@@ -30,7 +29,7 @@ class StoreProductRequest extends FormRequest
             'slug' => [
                 'required',
             ],
-             'month' => [
+            'month' => [
                 'required',
             ],
 

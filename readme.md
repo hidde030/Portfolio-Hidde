@@ -7,7 +7,7 @@
     git push
     // git pull voor ophalen
 
-# [React Portfoilio - Hidde Glansdorp]
+# [Portfolio - Hidde Glansdorp]
 
 **Hidde Glansdorp**
 _Ik wil mijn portfolio in react maken. Me hoofddoel die is een object je muis volgt en het systeem werk_
@@ -29,18 +29,15 @@ _De data moet een dashboard hebben_
 
 ## Todo:
 
--   [x] React setup
 -   [x] Inspiratie zoeken
--   [ ] Data beheren met laravel
--   [ ] Data uitlezen Dashboard
--   [ ] Laravel server stats uitlezen Dashboard design
--   [ ] scss toevoegen
+-   [x] Data beheren met laravel
+-   [x] Data uitlezen Dashboard
+-   [x] Laravel server stats uitlezen Dashboard design
+-   [x] scss toevoegen
+-   [ ] Dashboard uitbreiden/mooier maken
 -   [ ]
 -   [ ]
--   [ ]
-## Admin Login
-username : admin@admin.com
-password : password
+
 ## Status
 
 | Klaar? | portfolio |
@@ -51,11 +48,27 @@ password : password
 ## Download and Installation
 
 ```sh
+$ git clone https://gitlab.glu.nl/530643/webportfolio.git
 $ cd hidde-portfolio-master
-$ npm install
 ```
 
-## Usage
+## Usage Laravel
+
+```sh
+add database
+composer install
+cp example.env .env
+update .env
+
+php artisan key:generate
+php artisan migrate:refresh
+php artisan migrate:refresh --seed
+\*for editting sass this command
+
+npm install
+npm run watch
+
+```
 
 ### Basic Usage
 
@@ -64,3 +77,7 @@ Read the installation
 ## Copyright and Licens
 
     @Hidde Glansdorp
+
+```
+
+```

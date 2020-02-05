@@ -8,8 +8,8 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <title><?php echo env('APP_NAME') ?> - @yield('title') </title>
-  <link rel="stylesheet" href="<?= asset('/css/header.css'); ?>">
-  <link rel="stylesheet" href="<?= asset('/css/work.css'); ?>">
+  <link rel="stylesheet" href="<?=asset('/css/header.css');?>">
+  <link rel="stylesheet" href="<?=asset('/css/work.css');?>">
   <!-- libraries card -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
@@ -24,7 +24,7 @@
   <script>
     $(window).on('load', function() {
       $('.post-module').hover(function() {
-        $(this).find('.description').stop().animate({ q 
+        $(this).find('.description').stop().animate({
           height: "toggle",
           opacity: "toggle"
         }, 300);

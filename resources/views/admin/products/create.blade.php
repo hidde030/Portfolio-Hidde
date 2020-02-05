@@ -119,33 +119,6 @@
                 @endif
 
             </div>
-            <!-- <div class="form-group {{ $errors->has('description') ? 'has-error' : '' }}">
-                <label for="description">{{ trans('global.product.fields.description') }}</label>
-                <textarea id="description" name="description" class="form-control ">{{ old('description', isset($product) ? $product->description : '') }}</textarea>
-                @if($errors->has('description'))
-                    <em class="invalid-feedback">
-                        {{ $errors->first('description') }}
-                    </em>
-                @endif
-                <p class="helper-block">
-                    {{ trans('global.product.fields.description_helper') }}
-                </p>
-            </div>
-
-
-
-            <div class="form-group {{ $errors->has('price') ? 'has-error' : '' }}">
-                <label for="price">{{ trans('global.product.fields.price') }}</label>
-                <input type="number" id="price" name="price" class="form-control" value="{{ old('price', isset($product) ? $product->price : '') }}" step="0.01">
-                @if($errors->has('price'))
-                    <em class="invalid-feedback">
-                        {{ $errors->first('price') }}
-                    </em>
-                @endif
-                <p class="helper-block">
-                    {{ trans('global.product.fields.price_helper') }}
-                </p>
-            </div> -->
 
             <div>
                 <input class="btn btn-danger" type="submit" value="{{ trans('global.save') }}">
