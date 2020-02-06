@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo env('APP_NAME') ?> - @yield('title') </title>
-    <link rel="stylesheet" href="<?= asset('/css/bootstrap.css'); ?>">
-    <link rel="stylesheet" href="<?= asset('/css/app.css'); ?>">
+    <link rel="stylesheet" href="<?=asset('/css/bootstrap.css');?>">
+    <link rel="stylesheet" href="<?=asset('/css/app.css');?>">
     <link rel="stylesheet" href="<?=asset('/css/header.css');?>">
     <link rel="stylesheet" href="<?=asset('/css/contact.css');?>">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -16,6 +16,7 @@
 
 {{--    @yield('header', View::make('layouts.header'))--}}
     @yield('menu', View::make('layouts.menu'))
+    <!-- contact pagina -->
     @yield('content')
 
 

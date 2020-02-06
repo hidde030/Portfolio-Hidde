@@ -50,7 +50,39 @@
         </div>
     </div>
 </div>
+<!-- line chart  -->
+<div class="row">
+<div class="col-md-5"></div>
+<div class="col-md-7"><h2 class="text-dark">Gebruikers</h2></div>
 
+</div>
+
+
+</div>
+<div class="charts--container">
+    <ul>
+      <div id="pieChart">
+        <li class="chart">
+
+
+          <div id="lineChart">
+            <svg id="lineChartSVG" class="lineChart--svg">
+              <defs>
+                <linearGradient id="lineChart--gradientBackgroundArea" x1="0" x2="0" y1="0" y2="1">
+                  <stop class="lineChart--gradientBackgroundArea--top" offset="0%" />
+                  <stop class="lineChart--gradientBackgroundArea--bottom" offset="100%" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </li>
+      </div>
+    </ul>
+  </div>
+
+
+  </ul>
+  </div>
 @endsection
 @section('scripts')
 @parent

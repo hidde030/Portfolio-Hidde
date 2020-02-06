@@ -20,5 +20,6 @@ werken aan Dashboard laravel/routes
 bugfixes
 1/2/2020 - 4 uur 
 laravel dashboard product gekoppeld
-5/2/2020 -
+5/2/2020 - 3 uur
+Dashboard stylen/updaten
 

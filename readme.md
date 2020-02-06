@@ -55,10 +55,12 @@ $ cd hidde-portfolio-master
 ## Usage Laravel
 
 ```sh
-add database
+add a new database
 composer install
+npm install
 cp example.env .env
-update .env
+update je .env naar je database naam en je DB_USERNAME= en DB_PASSWORD=
+
 
 php artisan key:generate
 php artisan migrate:refresh
